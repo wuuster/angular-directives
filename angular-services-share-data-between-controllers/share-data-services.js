@@ -5,16 +5,16 @@ angular.module('app', [])
         appData.addData($scope.addInfo);
     })
     .service('appData', function () {
-    data = [];
-    var addData = function (i) {
-        var args = data.push(i);
-    }
-    var getData = function () {
-        return data;
-    }
+        data = [];
+        var addData = function (i) {
+            var args = data.push(i);
+        };
+        var getData = function () {
+            return data;
+        };
 
-    return {
-        getData: getData,
-        addData: addData
+        return {
+            getData: getData,
+            addData: addData
     }
 });
