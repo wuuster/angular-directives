@@ -1,8 +1,9 @@
 angular.module('app', [])
-    .controller('ctrl', function ($scope, appData) {
+    .controller('ctrl1', function ($scope, appData) {
+        appData.addData('foo');
+    })
+    .controller('ctrl2', function ($scope, appData) {
         $scope.getInfo = appData.getData();
-        $scope.addInfo = 'foo';
-        appData.addData($scope.addInfo);
     })
     .service('appData', function () {
         data = [];
@@ -12,9 +13,8 @@ angular.module('app', [])
         var getData = function () {
             return data;
         };
-
         return {
             getData: getData,
             addData: addData
-    }
-});
+        }
+    });
