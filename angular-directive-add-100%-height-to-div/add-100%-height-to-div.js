@@ -1,5 +1,5 @@
-angular.module('app', []).directive('appHeight', function ($window) {
+angular.module('app', []).directive('appHeight', function($window) {
     return function (scope, element, attrs) {
-        element.css('height', ($window.innerHeight) + 'px');
+        element.css('height', ($window.innerHeight)+'px');
     }
 })
