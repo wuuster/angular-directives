@@ -1,3 +1,5 @@
 # codebook
-
-###Git Command Line
+```
+> git status
+*Checks for changes between local and remote branch*
+```
