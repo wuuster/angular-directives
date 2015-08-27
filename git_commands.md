@@ -12,4 +12,5 @@
 #
 ``` git push thisBranch - Push this changes from local branch to remote ```
 #
-
+``` git checkout filename - Overwrite existing changes to a file, replace file with remote version ```
+#
