@@ -14,3 +14,5 @@
 #
 ``` git checkout filename - Overwrite existing changes to a file, replace file with remote version ```
 #
+``` git commit -am "Type commit message here" - Commit files locally with commit message ```
+#
