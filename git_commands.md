@@ -12,7 +12,13 @@
 #
 ``` git push thisBranch - Push this changes from local branch to remote ```
 #
+``` git pull - Update branch ```
+#
 ``` git checkout filename - Overwrite existing changes to a file, replace file with remote version ```
 #
 ``` git commit -am "Type commit message here" - Commit files locally with commit message ```
+#
+``` git branch -a "Show all branches```
+#
+``` git checkout -b NewBranch - Creates a direct copy of current branch called NewBranch ```
 #
